@@ -1,10 +1,11 @@
 @import url('reset.css'); /* Start off with a complete CSS reset */
 /*
-Theme Name: DebuggingSkills
-Theme URI: 
-Author: RameshElworthy
-Author URI: http://www.elworthystudios.com/
-Description: Blog Theme specialy for Debugging Skills
+Theme Name: Anaximander - static version for lynda.com tutorial
+Theme URI: http://designisphilosophy.com/free-wordpress-themes/anaximander/
+Author: Morten Rand-Hendriksen of Pink &amp; Yellow Media
+Author URI: http://pinkandyellow.com
+Description: Semantic HTML5 WordPress 3.4 theme built as a learning tool for lynda.com. The background in the screenshot shows Dirk L. Couprie's illustration of Anaximander's models of the universe. On the left, daytime in summer; on the right, night time in winter, sourced from the Internet Encyclopedia of Philosophy (http://www.iep.utm.edu/anaximan/) and Wikipedia (http://en.wikipedia.org/wiki/Anaximander).
+Version: 1.2.1
 License: GNU General Public License
 License URI: license.txt
 */
@@ -36,7 +37,7 @@ body {
 
 #wrapper {
 	display: block;
-	width: 1040px;
+/* 	width: 1040px; */
 	margin: 0 auto;
 	background: #fff;
 }
@@ -97,7 +98,7 @@ strong {
 }
 
 /* Used to highlight content when navigating the site using a keyboard.
- * DebuggingSkills features extensive focus elements so this style is optional.
+ * Anaximander features extensive focus elements so this style is optional.
 :focus {
 	outline: #000 solid 1px;
 }
@@ -255,12 +256,16 @@ Header
 
 
 #site-header {
-	background: #3399FF;
+	background: #2a3744;
 	position: relative;
 }
 
 #header_margin {
-	padding: 40px 50px;
+	overflow: hidden;
+	padding: 10px 20px;
+	width: 95%;
+	max-width: 1070px;
+	margin: 0 auto;
 }
 
 #header_image img {
@@ -270,12 +275,11 @@ Header
 }
 
 .header-container {
-	margin-left: 34.04255319148936%;
+
 }
+
 #header-title {
-	margin-left: -51.61290322580645%;
-	width: 48.38709677419355%;
-	float: left;
+
 }
 
 #site-title {
@@ -283,7 +287,6 @@ Header
 	font-weight: 700;
 	margin: 0;
 	font-family: 'Open Sans Condensed';
-	text-transform: uppercase;
 	z-index: 10;
 }
 
@@ -302,6 +305,14 @@ Header
 	color: #fff;
 	margin: 0.2em 0;
 }
+
+
+#color-bar-1 {
+	background: #FFBA00;
+	height: 2px;
+	width: 100%;
+}
+
 
 /* Conditional if header image is present */
 
@@ -699,7 +710,7 @@ li.theComments span {
 .index-title {
 	font-size: 2em;
 	font-weight: 100;
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 	margin: 20px 0;
 	line-height: 1.3em;
 	word-wrap: break-word;

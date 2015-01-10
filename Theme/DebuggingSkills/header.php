@@ -102,7 +102,8 @@
 			
 			<hgroup id="header-title"  <?php /* if ( $header_image ) { echo 'class="header-image-true"'; } */ ?>>
 				<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+
+				
 			</hgroup>
 			
 			<?php 
@@ -156,7 +157,7 @@
 		</div>
 	<?php endif; // end check for removed header image ?>
 
-			
+	<div id="color-bar-1"></div>		
 	</header><!-- #site-header -->
 	
 	
