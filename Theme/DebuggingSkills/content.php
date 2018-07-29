@@ -1,8 +1,3 @@
-<?php
-
-/* Index and archive page loop */
-
-?>
 
 <article id="post-<?php the_ID(); ?>" class="group index-post-container">
 	<?php 
